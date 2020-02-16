@@ -1,0 +1,67 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css?family=PT+Serif|Raleway|Rubik&display=swap");
+
+
+/* Components files*/
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+
+/* Fonts and sizes*/
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	margin: 0px auto;
+
+}
+h1 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+h2 { 
+	font-family: 'PT Serif', serif;
+	font-size: 20px;
+ }
+
+
+ /* Responsive design*/
+ @media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/* Features and cleaning*/
+a {
+	text-decoration: none;
+}
+.pp {
+	margin-left: 280px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+.intro h2 {
+	margin-left: 190px;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.typeform-widget {
+	margin-top: 0px;
+	align-items: center;
+}
